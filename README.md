@@ -12,4 +12,5 @@ Here are my solutions for programming contests or online judges.
   * [Google Code Jam (GCJ)] (https://code.google.com/codejam/)
      * 2013
          * Qualification Round: Rank = 4950, Score = 85 / 250
+         * Round 1A: (Skipped)
  
