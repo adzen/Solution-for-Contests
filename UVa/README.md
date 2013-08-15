@@ -14,6 +14,8 @@
 
 10789 - Prime Frequency
 
+11056 - Formula 1
+
 11538 - Chess Queen
 
 12543 - Longest Word
