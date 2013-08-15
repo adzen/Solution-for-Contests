@@ -16,6 +16,8 @@
 
 11056 - Formula 1
 
+11520 - Fill the Square
+
 11538 - Chess Queen
 
 12543 - Longest Word
