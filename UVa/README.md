@@ -8,6 +8,8 @@
 
 10523 - Very Easy !!!
 
+10789 - Prime Frequency
+
 11538 - Chess Queen
 
 12543 - Longest Word
