@@ -12,6 +12,8 @@
 
 10684 - The jackpot
 
+10759 - Dice Throwing
+
 10789 - Prime Frequency
 
 11056 - Formula 1
