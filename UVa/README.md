@@ -22,6 +22,8 @@
 
 11056 - Formula 1
 
+11401 - Triangle Counting
+
 11520 - Fill the Square
 
 11538 - Chess Queen
