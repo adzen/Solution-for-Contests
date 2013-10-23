@@ -1,3 +1,5 @@
+* 11309 - Counting Chaos [時間][Palindrome]
+
 * 00108 - Maximum Sum
 * 00343 - What Base Is This?
 * 00355 - The Bases Are Loaded
