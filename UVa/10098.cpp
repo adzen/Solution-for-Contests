@@ -1,3 +1,7 @@
+// 12549950 0.942
+// 輸出一串字元不重複的 permutation
+// 啊...就 next_permutation() 給他爽爽地用下去就好了XD
+
 #include <iostream>
 #include <string>
 #include <algorithm>
