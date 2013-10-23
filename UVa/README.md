@@ -1,3 +1,4 @@
+* 10098 - Generating Fast [Permutation]
 * 11309 - Counting Chaos [時間][Palindrome]
 
 * 00108 - Maximum Sum
