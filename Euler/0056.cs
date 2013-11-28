@@ -1,4 +1,8 @@
-﻿using System;
+// a^b 的十進位表示法，a, b < 100，最大的數字和是？
+
+// C# 內建大數，就直接拿來用了...
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,8 +18,9 @@ namespace ConsoleApplication1
             BigInteger max = 0;
             for (int a = 1; a < 100; a++) {
                 for (int b = 1; b < 100; b++) {
-                    BigInteger ans = BigInteger.Pow(a, b);
-
+                    BigInteger ans = BigInteger.Pow(a, b);   // a^b
+                    
+                    // 計算數字和
                     BigInteger sum = 0;
                     while (ans > 0) {
                         sum += ans % 10;
