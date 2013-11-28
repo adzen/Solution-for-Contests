@@ -1,3 +1,6 @@
+/* 找出第 10 001 個質數... */
+/* 篩法萬能！ */
+
 #include <stdio.h>
 
 #define MAXTRY 120000
