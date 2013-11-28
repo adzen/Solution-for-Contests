@@ -1,3 +1,6 @@
+/* 程設一等級的題目... */
+/* 20*20 的方格中找出最大的「連續四個整數的積」 */
+
 #include <stdio.h>
 
 int main(){
@@ -8,7 +11,7 @@ int main(){
    }}
    
    int max = 0, i;
-   /* vertical */
+   /* 垂直的 */
    for(r = 0; r < 16; r++){
    for(c = 0; c < 20; c++){
       int product = 1;
@@ -16,7 +19,7 @@ int main(){
       if(product > max) max = product;
    }}
    
-   /* horizon */
+   /* 水平的 */
    for(r = 0; r < 20; r++){
    for(c = 0; c < 16; c++){
       int product = 1;
@@ -24,7 +27,7 @@ int main(){
       if(product > max) max = product;
    }}
    
-   /* \\ */ 
+   /* 往右下 */ 
    int j;
    for(r = 0; r < 16; r++){
    for(c = 0; c < 16; c++){
@@ -33,7 +36,7 @@ int main(){
       if(product > max) max = product;
    }}
    
-   /* // */
+   /* 往左上 */
    for(r = 3; r < 20; r++){
    for(c = 0; c < 16; c++){
       int product = 1;
