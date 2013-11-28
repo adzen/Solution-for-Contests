@@ -1,3 +1,8 @@
+/* 計算 1 000 000 以下有幾個 circular prime？ */
+
+/* 先篩法找出所有質數，每一個再依序轉看看檢查 */
+/* 在轉的時候，要注意前置零的問題... */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -7,6 +12,7 @@
 char notprime[MAXTRY];
 int primes[80000], primen;
 
+/* 把最高位移到最低位 */
 int shift(int in, int len){
    char str[100] = {0};
    sprintf(str, "%0*d", len, in);
@@ -18,6 +24,7 @@ int shift(int in, int len){
 int main(){
    notprime[0] = notprime[1] = 1;
    
+   /* 老樣子的篩法... */
    int i = 2, j;
    while(i < MAXTRY){
       primes[primen++] = i;
@@ -41,7 +48,7 @@ int main(){
          rot = shift(rot, len);
       }while(rot != primes[i]);
       
-      if(rot == primes[i]) count++;
+      if(rot == primes[i]) count++;   /* 轉完一輪都還是質數，就加一 */
    }
    
    printf("%d\n", count);
