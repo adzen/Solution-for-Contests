@@ -9,6 +9,7 @@
   * 0006 - Sum square difference
   * 0007 - 10001st prime 
   * 0008 - Largest product in a series
+  * 0009 - Special Pythagorean triplet
   * 0010 - Summation of primes
   * 0011 - Largest product in a grid
   * 0015 - Lattice paths
