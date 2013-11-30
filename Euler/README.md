@@ -12,6 +12,7 @@
   * 0009 - Special Pythagorean triplet
   * 0010 - Summation of primes
   * 0011 - Largest product in a grid
+  * 0013 - Large sum
   * 0015 - Lattice paths
   * 0016 - Power digit sum
   * 0035 - Circular primes
