@@ -4,6 +4,7 @@
   * 0001 - Multiples of 3 and 5
   * 0002 - Even Fibonacci numbers
   * 0003 - Largest prime factor
+  * 0004 - Largest palindrome product
   * 0006 - Sum square difference
   * 0007 - 10001st prime 
   * 0008 - Largest product in a series
