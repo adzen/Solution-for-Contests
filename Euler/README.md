@@ -13,6 +13,7 @@
   * 0010 - Summation of primes
   * 0011 - Largest product in a grid
   * 0015 - Lattice paths
+  * 0016 - Power digit sum
   * 0035 - Circular primes
   * 0048 - Self powers
   * 0050 - Consecutive prime sum
