@@ -1,6 +1,4 @@
-
-
-
+/* 換零錢問題...經典的 DP */
 
 #include <stdio.h>
 
@@ -14,10 +12,9 @@ int main(){
         for(type = 0; type < 8; type++){
             if(value == coin[type]) dp[value][type] = 1;
             else if(value > coin[type]){
-                int smallerType;
-                for(smallerType = 0; smallerType <= type; smallerType++){
-                    dp[value][type] += dp[value-coin[type]][smallerType];    
-                }
+                /* 剩下的錢只能用跟它一樣大或較小的來換，避免重複計算 */
+                int smaller;
+                for(smaller = 0; smaller <= type; smaller++) dp[value][type] += dp[value-coin[type]][smaller];    
             }else dp[value][type] = 0;
             
             /*printf("dp[%d][%d]=%lld\n",value,type,dp[value][type]);*/
