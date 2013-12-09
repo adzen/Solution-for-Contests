@@ -1,12 +1,12 @@
+/* 小於一百萬，且十進位和二進位表示法皆是 palindrome 的數字總和 */
 
-
-
-
+/* 算簡單題吧...這裡嘗試列舉十進位的 palindrome 時使用了新方法 */
 
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
+/* 把左邊反過來變成右邊，兩者再接起來。中間有時可以重疊 */
 int palin(int in, int center){
     char left[100], right[100] = {0};
     sprintf(left, "%d", in);
@@ -24,6 +24,7 @@ int palin(int in, int center){
     return atoi(left);
 }
 
+/* 判斷二進位時是否是 palindrome */
 int binpalin(int in){
     int rev = 0, temp = in;
     while(temp){
